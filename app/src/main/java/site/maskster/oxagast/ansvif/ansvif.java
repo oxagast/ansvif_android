@@ -17,8 +17,11 @@ import android.widget.TextView;
 
 
 public class ansvif extends AppCompatActivity {
+
     String ansvifCMD;
     String ansvifOut;
+    String ansvifLoc;
+    String ansvifOpts;
 
     @SuppressLint("StaticFieldLeak")
     private class runme extends AsyncTask {
@@ -35,7 +38,7 @@ public class ansvif extends AppCompatActivity {
         protected Object doInBackground(Object[] objects) {
             try {
                 // Run the command
-                Process process = Runtime.getRuntime().exec(ansvifCMD);
+                Process process = Runtime.getRuntime().exec(ansvifLoc + ansvifCMD);
                 BufferedReader bufferedReader = new BufferedReader(
                         new InputStreamReader(process.getInputStream()));
                 // Grab the results
@@ -93,8 +96,9 @@ public class ansvif extends AppCompatActivity {
                 new View.OnClickListener() {
                     @SuppressLint("StaticFieldLeak")
                     public void onClick(View view) {
-                        ansvifCMD = "/data/data/site.maskster.oxagast.ansvif/lib/libansvif-wrapper.so ";
-                        String ansvifHardOpts = " ";
+                        ansvifLoc = "/data/data/site.maskster.oxagast.ansvif/lib/libansvif-wrapper.so ";
+                        String ansvifHardOpts = " -f 1";
+                        ansvifCMD = "";
                         if (!raText.getText().toString().equals("")) {
                             ansvifCMD += " -R " + raText.getText().toString();
                         }
@@ -128,7 +132,7 @@ public class ansvif extends AppCompatActivity {
                         if (!logText.getText().toString().equals("")) {
                             ansvifCMD += " -o " + logText.getText().toString();
                         }
-                        ansvifCMD = ansvifCMD + ansvifHardOpts;
+                        ansvifOpts = ansvifCMD + ansvifHardOpts;
                         final TextView ansvifComm = findViewById((R.id.opt));
                         ansvifComm.setText(ansvifCMD);
                         new runme().execute();

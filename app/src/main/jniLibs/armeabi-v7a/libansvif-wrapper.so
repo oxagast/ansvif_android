@@ -17,7 +17,11 @@ echo Unpacking templates...
 gzip -d /sdcard/ansvif/ansvif_examples.tar.gz
 tar -xvf /sdcard/ansvif/ansvif_examples.tar /sdcard/ansvif/
 fi
-export LD_LIBRARY_PATH=/data/data/site.maskster.oxagast.ansvif/lib
-/data/data/site.maskster.oxagast.ansvif/lib/libansvif.so "$@"
-#LD_LIBRARY_PATH=/data/local/tmp /data/local/tmp/libansvif.so "$@"
-#LD_LIBRARY_PATH=/data/data/site.maskster.oxagast.ansvif/lib /data/data/site.maskster.oxagast.ansvif/lib/libansvif.so -t /sdcard/ansvif/examples/specific/space.txt -A AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -B A -c /data/local/tmp/testcrash -b 64
+#export LOCDIR=/data/local/tmp
+export LOCDIR=/data/data/site.maskster.oxagast.ansvif/lib
+#/data/data/site.maskster.oxagast.ansvif/lib/libansvif.so "$@" > /sdcard/output
+export LD_LIBRARY_PATH=$LOCDIR
+$LOCDIR/ansvif "$@" > /sdcard/output
+#$LOCDIR/libansvif.so -c /data/local/tmp/testcrash -b 32 -t /sdcard/ansvif/examples/specific/flag_chars.txt > /sdcard/output
+
+pwd
