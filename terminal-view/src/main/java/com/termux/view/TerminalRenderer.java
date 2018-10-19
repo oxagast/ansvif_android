@@ -34,6 +34,7 @@ public final class TerminalRenderer {
     private final float[] asciiMeasures = new float[127];
 
     public TerminalRenderer(int textSize, Typeface typeface) {
+        textSize = 14;
         mTextSize = textSize;
         mTypeface = typeface;
 
