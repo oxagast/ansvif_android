@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+MERGED from [:terminal-view] /home/marshall/AndroidStudioProjects/termux-app/terminal-view/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/83a8597d88230072320fed047b5db048/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/8218408207a6fbb7a0d0e0d4f7660153/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/ed19bc716da2d09b557bd1a59c12041a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/28f677e289b03bc1c218de2d316d4575/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ab4b914ec8d16a2e3ab7afaba3678e66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/385706044dc123e720be6cb35105a0f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/606b6480ba1af5b4c74333a11eb0431d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ddeb94d140162231e48989cf905874ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/26d2e1d1fdaa5b77f908d47c0f1fe226/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1fdcc294d2ce2d5472f47f9c34f98c42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1f3642673f9c4c405766d1c7acbaf6d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d1ac544df95abc73c24877c35efad522/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/25dc3e860eeda0f77c42f856e83890f7/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cce7943630eed464c829b8e1b0a11873/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a522701e045f030f7814e0450f6632e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8694e98d0f89cc36b3101ea94fb2ffe8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ceae3bd4523d8355b93d2e5a782809ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/140844368c6bbd9f7d0d1c87d47666e1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/78a19f9e2eb6ea724035db01017cf016/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/113d0baa69682232e9923bb5c1f36e0b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27e41597254c546d403c084f392c3c5e/AndroidManifest.xml:17:1-22:12
+MERGED from [:terminal-emulator] /home/marshall/AndroidStudioProjects/termux-app/terminal-emulator/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+	package
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:3:5-25
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+	android:sharedUserLabel
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:6:5-56
+	android:sharedUserId
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:5:5-38
+	android:versionName
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:1-125:12
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:1:11-69
+	android:installLocation
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:4:5-43
+uses-feature#android.hardware.touchscreen
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:8:5-90
+	android:required
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:8:63-87
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:8:19-62
+uses-feature#android.software.leanback
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:9:5-87
+	android:required
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:9:60-84
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:9:19-59
+uses-permission#android.permission.INTERNET
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:14:22-63
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:15:22-74
+application
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:17:5-123:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/25dc3e860eeda0f77c42f856e83890f7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/25dc3e860eeda0f77c42f856e83890f7/AndroidManifest.xml:22:5-23:19
+	android:extractNativeLibs
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:18:9-41
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:25:9-36
+	android:label
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:23:9-49
+	android:fullBackupContent
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:20:9-54
+	android:icon
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:19:9-35
+	android:banner
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:22:9-42
+	android:theme
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:24:9-44
+meta-data#android.max_aspect
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:29:9-77
+	android:value
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:29:54-74
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:29:20-53
+activity#com.termux.app.TermuxActivity
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:31:9-46:20
+	android:launchMode
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:34:13-44
+	android:windowSoftInputMode
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:36:13-74
+	android:resizeableActivity
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:35:13-46
+	android:configChanges
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:33:13-83
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:32:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:39:27-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:41:13-44:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:43:17-86
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:43:27-83
+meta-data#android.app.shortcuts
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:45:13-97
+	android:resource
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:45:61-94
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:45:24-60
+activity#com.termux.app.TermuxHelpActivity
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:48:9-54:56
+	android:parentActivityName
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:52:13-61
+	android:label
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:54:13-53
+	android:exported
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:50:13-37
+	android:resizeableActivity
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:53:13-46
+	android:theme
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:51:13-78
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:49:13-61
+activity#com.termux.filepicker.TermuxFileReceiverActivity
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:56:9-85:20
+	android:label
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:58:13-53
+	android:excludeFromRecents
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:60:13-46
+	android:noHistory
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:62:13-37
+	android:resizeableActivity
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:61:13-46
+	android:taskAffinity
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:59:13-59
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:57:13-76
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:application/*+data:mimeType:audio/*+data:mimeType:image/*+data:mimeType:message/*+data:mimeType:multipart/*+data:mimeType:text/*+data:mimeType:video/*
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:64:13-74:29
+action#android.intent.action.SEND
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:65:17-68
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:65:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:66:17-76
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:66:27-73
+data
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:67:17-58
+	android:mimeType
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:67:23-55
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/*latex*+data:mimeType:application/*xml*+data:mimeType:application/javascript+data:mimeType:application/json+data:mimeType:text/*
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:76:13-84:29
+	tools:ignore
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:76:28-58
+action#android.intent.action.VIEW
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:77:17-68
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:77:25-66
+activity-alias#com.termux.HomeActivity
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:87:9-97:26
+	android:targetActivity
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:89:13-67
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:88:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.IOT_LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:92:13-96:29
+category#android.intent.category.IOT_LAUNCHER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:94:17-80
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:94:27-78
+provider#com.termux.filepicker.TermuxDocumentsProvider
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:99:9-108:20
+	android:grantUriPermissions
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:102:13-47
+	android:authorities
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:101:13-55
+	android:exported
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:103:13-36
+	android:permission
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:104:13-69
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:100:13-63
+intent-filter#action:name:android.content.action.DOCUMENTS_PROVIDER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:105:13-107:29
+action#android.content.action.DOCUMENTS_PROVIDER
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:106:17-84
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:106:25-81
+service#com.termux.app.TermuxService
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:110:9-112:40
+	android:exported
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:111:13-56
+receiver#com.termux.app.TermuxOpenReceiver
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:114:9-60
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:114:19-57
+provider#com.termux.app.TermuxOpenReceiver$ContentProvider
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:116:9-120:86
+	android:readPermission
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:117:19-71
+	android:grantUriPermissions
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:119:19-53
+	android:authorities
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:116:19-57
+	android:exported
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:118:19-42
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:120:19-83
+meta-data#com.sec.android.support.multiwindow
+ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:122:9-94
+	android:value
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:122:71-91
+	android:name
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml:122:20-70
+uses-sdk
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+MERGED from [:terminal-view] /home/marshall/AndroidStudioProjects/termux-app/terminal-view/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:terminal-view] /home/marshall/AndroidStudioProjects/termux-app/terminal-view/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/83a8597d88230072320fed047b5db048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/83a8597d88230072320fed047b5db048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/8218408207a6fbb7a0d0e0d4f7660153/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/8218408207a6fbb7a0d0e0d4f7660153/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/ed19bc716da2d09b557bd1a59c12041a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/ed19bc716da2d09b557bd1a59c12041a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/28f677e289b03bc1c218de2d316d4575/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/28f677e289b03bc1c218de2d316d4575/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ab4b914ec8d16a2e3ab7afaba3678e66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ab4b914ec8d16a2e3ab7afaba3678e66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/385706044dc123e720be6cb35105a0f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/385706044dc123e720be6cb35105a0f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/606b6480ba1af5b4c74333a11eb0431d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/606b6480ba1af5b4c74333a11eb0431d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ddeb94d140162231e48989cf905874ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ddeb94d140162231e48989cf905874ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/26d2e1d1fdaa5b77f908d47c0f1fe226/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/26d2e1d1fdaa5b77f908d47c0f1fe226/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1fdcc294d2ce2d5472f47f9c34f98c42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1fdcc294d2ce2d5472f47f9c34f98c42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1f3642673f9c4c405766d1c7acbaf6d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1f3642673f9c4c405766d1c7acbaf6d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d1ac544df95abc73c24877c35efad522/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d1ac544df95abc73c24877c35efad522/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/25dc3e860eeda0f77c42f856e83890f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/25dc3e860eeda0f77c42f856e83890f7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cce7943630eed464c829b8e1b0a11873/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cce7943630eed464c829b8e1b0a11873/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a522701e045f030f7814e0450f6632e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a522701e045f030f7814e0450f6632e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8694e98d0f89cc36b3101ea94fb2ffe8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8694e98d0f89cc36b3101ea94fb2ffe8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ceae3bd4523d8355b93d2e5a782809ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/marshall/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ceae3bd4523d8355b93d2e5a782809ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/140844368c6bbd9f7d0d1c87d47666e1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/140844368c6bbd9f7d0d1c87d47666e1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/78a19f9e2eb6ea724035db01017cf016/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/78a19f9e2eb6ea724035db01017cf016/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/113d0baa69682232e9923bb5c1f36e0b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/113d0baa69682232e9923bb5c1f36e0b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27e41597254c546d403c084f392c3c5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/marshall/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/27e41597254c546d403c084f392c3c5e/AndroidManifest.xml:20:5-44
+MERGED from [:terminal-emulator] /home/marshall/AndroidStudioProjects/termux-app/terminal-emulator/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:terminal-emulator] /home/marshall/AndroidStudioProjects/termux-app/terminal-emulator/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		ADDED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
+		INJECTED from /home/marshall/AndroidStudioProjects/termux-app/app/src/main/AndroidManifest.xml
