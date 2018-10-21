@@ -8,7 +8,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.RUN"
-            android:targetPackage="com.termux"
-            android:targetClass="com.termux.app.TermuxActivity"/>
+            android:targetPackage="com.ansvif_android"
+            android:targetClass="com.ansvif_android.app.TermuxActivity"/>
     </shortcut>
 </shortcuts>

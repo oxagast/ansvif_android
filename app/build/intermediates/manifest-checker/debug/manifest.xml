@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.termux"
     android:installLocation="internalOnly"
-    android:sharedUserId="com.termux"
+    android:sharedUserId="com.ansvif_android"
     android:sharedUserLabel="@string/shared_user_label"
     android:versionCode="65"
     android:versionName="0.65" >
@@ -31,8 +31,7 @@
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:fullBackupContent="@xml/backupscheme"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/application_name"
+        android:label="ansvif"
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/Theme.Termux" >
@@ -46,7 +45,7 @@
             android:value="10.0" />
 
         <activity
-            android:name="com.termux.app.TermuxActivity"
+            android:name="com.ansvif_android.app.TermuxActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
@@ -68,8 +67,8 @@
         </activity>
 
         <activity-alias
-            android:name="com.termux.HomeActivity"
-            android:targetActivity="com.termux.app.TermuxActivity" >
+            android:name="com.ansvif_android.HomeActivity"
+            android:targetActivity="com.ansvif_android.app.TermuxActivity" >
 
             <!-- Launch activity automatically on boot on Android Things devices -->
             <intent-filter>
@@ -81,14 +80,14 @@
         </activity-alias>
 
         <activity
-            android:name="com.termux.app.TermuxHelpActivity"
+            android:name="com.ansvif_android.app.TermuxHelpActivity"
             android:exported="false"
             android:label="@string/application_name"
-            android:parentActivityName="com.termux.app.TermuxActivity"
+            android:parentActivityName="com.ansvif_android.app.TermuxActivity"
             android:resizeableActivity="true"
             android:theme="@android:style/Theme.Material.Light.DarkActionBar" />
         <activity
-            android:name="com.termux.filepicker.TermuxFileReceiverActivity"
+            android:name="com.ansvif_android.filepicker.TermuxFileReceiverActivity"
             android:excludeFromRecents="true"
             android:label="@string/application_name"
             android:noHistory="true"
@@ -124,8 +123,8 @@
         </activity>
 
         <provider
-            android:name="com.termux.filepicker.TermuxDocumentsProvider"
-            android:authorities="com.termux.documents"
+            android:name="com.ansvif_android.filepicker.TermuxDocumentsProvider"
+            android:authorities="com.ansvif_android.documents"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS" >
@@ -135,14 +134,14 @@
         </provider>
 
         <service
-            android:name="com.termux.app.TermuxService"
+            android:name="com.ansvif_android.app.TermuxService"
             android:exported="false" />
 
-        <receiver android:name="com.termux.app.TermuxOpenReceiver" />
+        <receiver android:name="com.ansvif_android.app.TermuxOpenReceiver" />
 
         <provider
-            android:name="com.termux.app.TermuxOpenReceiver$ContentProvider"
-            android:authorities="com.termux.files"
+            android:name="com.ansvif_android.app.TermuxOpenReceiver$ContentProvider"
+            android:authorities="com.ansvif_android.files"
             android:exported="true"
             android:grantUriPermissions="true"
             android:readPermission="android.permission.permRead" />

@@ -1,4 +1,4 @@
-com.termux.view
+com.ansvif_android.view
 drawable text_select_handle_left_material
 drawable text_select_handle_left_mtrl_alpha
 drawable text_select_handle_right_material

@@ -1,1 +1,1 @@
-com.termux.terminal
+com.ansvif_android.terminal

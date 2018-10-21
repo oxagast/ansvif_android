@@ -1,0 +1,48 @@
+ansvif v1.11 -- A Not So Very Intelligent Fuzzer
+Usage:
+ ./ansvif -t template -c ./faulty -b 2048
+Options:
+ -t [file]    This file should hold line by line command arguments.
+              as shown in the example file.
+ -e [file]    This file should hold line by line environment variables.
+              as shown in the example file.  You can
+              usually get these by doing something like:
+              $ strings /bin/mount | perl -ne 'print if /[A-Z]=$/' > mount_envs
+ -c [path]    Specifies the command path.
+ -p [integer] Specifies the manpage location (as an integer, usually 1 or 8).
+ -m [command] Specifies the commands manpage.
+ -D           Dump what we can out of the manpage to stdout.
+ -f [integer] Number of threads to use.  Default is 2.
+ -b [integer] Specifies the buffer size to fuzz with.
+              256-2048 Is usually sufficient.
+ -r           Use only random data.
+ -z           Randomize buffer size from 1 to specified by the -b option.
+ -s "@#^$CE"  Characters to omit from randomization.  Default omitted
+              characters are: <>\n |&[](){}:;\ and mandatory omitted
+              characters are: >\n.
+ -o [file]    Log to this file.
+ -x [file]    Other opts to put in, such as usernames, etc.
+ -S ","       Some seperator besides 'space' between opts, such as ',:-' etc.
+ -L           Privilege changing not implimented in Windows yet.  Defaults
+              nobody.
+ -A "foo"     Always put this string after the command.
+ -B "bar"     Always put this string before the command.
+ -F [file]    A file with junk to be fuzzed with whole.
+ -n           Never use random data in the fuzz.
+ -C "13"      Non default crash recognition error codes.
+              Defaults are 132, 136, 139, 135, 134, and 159.
+ -W [integer] Thread timeout.
+ -V           Fuzz in conjunction with Valgrind.
+ -1           Try to induce a crash once, and if a crash is not induced,
+              throw error code 64.
+ -P           Use % to represent binary in fuzz.
+ -M           Max arguments to use in the fuzz.
+ -y           Short for -b 0 and usually only useful with -A or -B
+ -K           Keep going after a crash.
+ -E "cmd"     A command to be run before the fuzzed program.
+ -R "ls"      Always run this command after the fuzz.
+ -N "prog"    Shorthand for -R "pkill prog"
+ -0           No NULL in fuzz.
+ -v           Be verbose.
+ -d           Debug data.
+ -i           Prints version information.

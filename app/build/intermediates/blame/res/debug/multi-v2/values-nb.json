@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/marshall/AndroidStudioProjects/termux-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
+            "outputFile": "/home/marshall/AndroidStudioProjects/ansvif_android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "/home/marshall/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/50f51cefa366843b9fb936629dff789a/res/values-nb/values-nb.xml",

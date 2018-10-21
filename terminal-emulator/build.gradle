@@ -11,8 +11,8 @@ ext {
     libraryName = 'TerminalEmulator'
     artifact = 'terminal-emulator'
     libraryDescription = 'The terminal emulator used in Termux'
-    siteUrl = 'https://github.com/termux/termux'
-    gitUrl = 'https://github.com/termux/termux.git'
+    siteUrl = 'https://github.com/oxagast/ansvif_android'
+    gitUrl = 'https://oxagast.github.io/ansvif'
     libraryVersion = '0.52'
 }
 
