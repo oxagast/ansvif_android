@@ -34,15 +34,16 @@ ${srcdir}templates.cpp
 ${incdir}gzstream/gzstream.h
 ${incdir}xmlwriter/xml_writer.hpp
 ${srcdir}version.h )
+
 set(gzstreamsources ${incdir}gzstream/gzstream.h ${incdir}gzstream/gzstream.cpp)
 
 add_library( gzstream ${gzstreamsources} )
 target_compile_options( gzstream PUBLIC -std=c++11 -fpermissive -w -Wall )
-add_executable(ansvif ${ansvifsources} )
 
+add_executable(ansvif ${ansvifsources} )
 target_compile_options(ansvif PUBLIC -std=c++11 -fpermissive -w -Wall )
 
-
-
+add_executable(crashable ${srcdir}buffer_overflow.c)
+target_compile_options(crashable PUBLIC -fno-stack-protector -fpermissive)
 
 target_link_libraries(ansvif -lz -lstdc++ -pthread )

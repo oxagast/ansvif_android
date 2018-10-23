@@ -1,0 +1,7 @@
+036efa0b762ccab571fec35cbd991498  data/data/com.termux/files/usr/bin/gpg-error
+d56a19c333865594d7661326a84ef3a9  data/data/com.termux/files/usr/bin/gpg-error-config
+d56a19c333865594d7661326a84ef3a9  data/data/com.termux/files/usr/bin/gpgrt-config
+5982c353c24c575ec7fef686871cf159  data/data/com.termux/files/usr/bin/yat2m
+506a3dd328e49fb3ab7f7d7bc8fb83a1  data/data/com.termux/files/usr/lib/libgpg-error.so
+fccc98026775d21b0febdd629b96b862  data/data/com.termux/files/usr/share/libgpg-error/errorref.txt
+1c94c8226c1e9247548cba54360f67d1  data/data/com.termux/files/usr/share/man/man1/gpg-error-config.1

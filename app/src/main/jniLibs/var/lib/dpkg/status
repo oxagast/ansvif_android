@@ -1,0 +1,221 @@
+Architecture: arm
+Depends: ncurses, readline, libandroid-support, termux-tools, command-not-found
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+Installed-Size: 1124
+Maintainer: Fredrik Fornwall @fornwall
+Package: bash
+Version: 4.4.23-2
+Status: install ok installed
+
+Architecture: arm
+Depends: libandroid-support, ncurses
+Description: Library that allow users to edit command lines as they are typed in
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Package: readline
+Version: 7.0.5
+Status: install ok installed
+
+Architecture: arm
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: http://invisible-island.net/ncurses/
+Installed-Size: 568
+Maintainer: Fredrik Fornwall @fornwall
+Package: ncurses
+Version: 6.1.20180707
+Status: install ok installed
+
+Architecture: arm
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: https://termux.com
+Installed-Size: 104
+Maintainer: Fredrik Fornwall @fornwall
+Package: command-not-found
+Version: 1.34
+Status: install ok installed
+
+Architecture: all
+Depends: termux-am
+Description: Basic system tools for Termux
+Essential: yes
+Homepage: https://termux.com/
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Package: termux-tools
+Version: 0.56
+Status: install ok installed
+
+Architecture: arm
+Description: Small POSIX-compliant implementation of /bin/sh
+Essential: yes
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Installed-Size: 184
+Maintainer: Fredrik Fornwall @fornwall
+Package: dash
+Version: 0.5.10.2-1
+Status: install ok installed
+
+Architecture: arm
+Description: XZ-format compression library
+Homepage: https://tukaani.org/xz/
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Package: liblzma
+Version: 5.2.4
+Status: install ok installed
+
+Architecture: arm
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Essential: yes
+Homepage: https://github.com/termux/libandroid-support
+Installed-Size: 176
+Maintainer: Fredrik Fornwall @fornwall
+Package: libandroid-support
+Version: 22
+Status: install ok installed
+
+Architecture: arm
+Conflicts: coreutils (<< 8.25-4)
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Essential: yes
+Homepage: https://busybox.net/
+Installed-Size: 556
+Maintainer: Fredrik Fornwall @fornwall
+Package: busybox
+Version: 1.29.3
+Status: install ok installed
+
+Architecture: arm
+Description: C++ Standard Library
+Essential: yes
+Homepage: https://libcxx.llvm.org/
+Installed-Size: 672
+Maintainer: Fredrik Fornwall @fornwall
+Package: libc++
+Version: 17
+Status: install ok installed
+
+Architecture: all
+Description: Common CA certificates
+Homepage: https://curl.haxx.se/docs/caextract.html
+Installed-Size: 244
+Maintainer: Fredrik Fornwall @fornwall
+Package: ca-certificates
+Version: 20180620
+Status: install ok installed
+
+Architecture: arm
+Conflicts: libcurl (<< 7.61.0-1)
+Depends: ca-certificates
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+Installed-Size: 1868
+Maintainer: Fredrik Fornwall @fornwall
+Package: openssl
+Version: 1.1.1-1
+Status: install ok installed
+
+Architecture: arm
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+Installed-Size: 128
+Maintainer: Fredrik Fornwall @fornwall
+Package: libnghttp2
+Version: 1.33.0
+Status: install ok installed
+
+Architecture: arm
+Depends: openssl (>= 1.1.1), libnghttp2
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.haxx.se/
+Installed-Size: 304
+Maintainer: Fredrik Fornwall @fornwall
+Package: libcurl
+Version: 7.61.1-1
+Status: install ok installed
+
+Architecture: arm
+Conflicts: gnupg (<= 1.4.21)
+Depends: libbz2, libgcrypt, libgpg-error
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Package: gpgv
+Version: 2.2.10
+Status: install ok installed
+
+Architecture: arm
+Depends: libgpg-error
+Description: General purpose cryptographic library based on the code from GnuPG
+Homepage: https://www.gnu.org/software/libgcrypt/
+Installed-Size: 704
+Maintainer: Fredrik Fornwall @fornwall
+Package: libgcrypt
+Replaces: libgcrypt
+Version: 1.8.3
+Status: install ok installed
+
+Architecture: arm
+Description: Small library that defines common error values for all GnuPG components
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Installed-Size: 220
+Maintainer: Fredrik Fornwall @fornwall
+Package: libgpg-error
+Version: 1.32
+Status: install ok installed
+
+Architecture: arm
+Description: BZ2 format compression library
+Homepage: http://www.bzip.org/
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Package: libbz2
+Version: 1.0.6-1
+Status: install ok installed
+
+Architecture: arm
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Homepage: https://github.com/termux/termux-exec
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Package: termux-exec
+Version: 0.3
+Status: install ok installed
+
+Architecture: all
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Homepage: https://github.com/michalbednarski/TermuxAm
+Installed-Size: 60
+Maintainer: Michal Bednarski @michalbednarski
+Package: termux-am
+Version: 0.2
+Status: install ok installed
+
+Architecture: arm
+Depends: busybox, liblzma
+Description: Debian package management system
+Essential: yes
+Homepage: https://packages.debian.org/dpkg
+Installed-Size: 716
+Maintainer: Fredrik Fornwall @fornwall
+Package: dpkg
+Version: 1.19.0.5
+Status: install ok installed
+
+Architecture: arm
+Conflicts: apt-transport-https
+Depends: libcurl, liblzma, dpkg, gpgv, libc++, termux-exec
+Description: Front-end for the dpkg package manager
+Essential: yes
+Homepage: https://packages.debian.org/apt
+Installed-Size: 2096
+Maintainer: Fredrik Fornwall @fornwall
+Package: apt
+Replaces: apt-transport-https
+Version: 1.4.8-6
+Status: install ok installed
+
