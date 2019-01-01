@@ -1,4 +1,4 @@
-ansvif v1.11a -- A Not So Very Intelligent Fuzzer
+ansvif v1.11 -- A Not So Very Intelligent Fuzzer
 Usage:
  ./ansvif -t template -c ./faulty -b 2048
 Options:
